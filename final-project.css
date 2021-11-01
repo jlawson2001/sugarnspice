@@ -1,0 +1,212 @@
+/*DOCTYPE css*/
+body{
+  width: 90%;
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px auto;
+  background-size: 400px;
+  background-repeat: round;
+  background-image: url("sidemarble-background.jpeg");
+}
+header{
+  font-family: 'Dancing Script', cursive;
+  font-size: 48px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* help from https://wpshout.com/quick-guides/create-text-outline-css/*/
+  background-image: url("rosy-background.jpeg");
+  background-size: cover;
+  height: 100%;
+}
+#byjenni{
+  font-size: 30px;
+}
+#sugar-butter-title{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#soaking-up-summer{
+  font-variant: small-caps;
+  font-size: 36px;
+}
+#cherry-berry-text{
+  font-variant: small-caps;
+  font-size: 64px;
+}
+.general-page-titles{
+  font-variant:small-caps;
+  clear: both;
+  display: block;
+  font-size: 24px;
+  text-transform: full-width;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  padding: 5px 0px;
+}
+p a{
+  color: black;
+}
+.text-box{
+  background-color:white;
+  opacity: 0.8;
+  margin: 0px 25%;
+  padding: 5px 10px;
+  border-radius: 1px;
+  font-size: 24px;
+  padding: 10px 10px;
+}
+span{
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#whatscooking{
+  width: 350px;
+  margin:auto;
+  margin-top: 10vh;
+}
+#getsocial{
+  width: 150px;
+  margin:auto;
+  margin-top: 10vh;
+}
+#cookies{
+  width: 300px;
+  margin:auto;
+  margin-top: 35vh
+}
+#pizza{
+  width: 200px;
+  margin:auto;
+  margin-top: 35vh
+}
+#pie{
+  width: 200px;
+  margin:auto;
+  margin-top: 35vh
+  }
+#recipes{
+width: 98.3%;
+margin: auto;
+margin-right: 30px;
+/*margin-left: auto;
+margin-right: auto;*/
+/*FIX THIS!!*/
+}
+#whole-pizza-recipepage-pic{
+  transform: rotate(90deg);
+  width: 40%;
+}
+.cherrypie_recipepage_pic{
+  width: 90%;
+}
+.chocolatechipcookies_recipepage_pic{
+  width: 60%;
+}
+#broken-cookie{
+  transform: rotate(90deg);
+  width: 40%;
+}
+#parallax-cherry{
+  background-image: url("pages/recipes/cherry-berry-pie/cherry-berry-pie-images/cherry-berry-pie.jpeg");
+}
+#parallax-cookies{
+  background-image: url("pages/recipes/chocolate-chip-cookies/chocolate-chip-cookies-images/chocolate-chip-cookies.jpeg");
+  margin-top: 0px;
+}
+#parallax-pizza{
+  background-image: url("pages/recipes/margherita-pizza/margherita-pizza-images/pizza-slice-lift.jpeg");
+}
+#parallax-pie{
+  background-image: url("pages/recipes/cherry-berry-pie/cherry-berry-pie-images/cherry-berry-pie.jpeg");
+}
+#parallax-whatscooking{
+  background-image: url("whatscooking.jpeg");
+  height:30vh;
+}
+#parallax-getsocial{
+  background-image: url("getsocial.jpeg");
+  height:30vh;
+}
+.parallax{ /* Create the parallax scrolling effect */
+  height: 75vh; /*viewport height*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 15px;
+  display: block;
+  z-index: -1;
+  clear: both
+} /*code tutorial aided by W3 schools to create parallax scrolling effect*/
+.parallax img{
+  z-index: -1; /*places image behind text*/
+}
+a{
+    text-decoration: none;
+  }
+nav ul{
+  width: 90%;
+  margin: 10px auto;
+  margin-top: 5px;
+}
+#nav{
+  overflow: hidden;
+}
+.nav-element{
+  text-decoration: none;
+  display: inline;
+  float: left;
+  padding: 20px 55px;
+  border-right: solid white 1px;
+  background-color: #f8effc;
+  font-size: 19px;
+}
+li a{
+  display: block;
+  text-decoration: none; /*gets rid of link underlines for unorderded lists*/
+  font-variant: small-caps;
+  color:#fbc2fc;
+}
+li a:hover{
+  color: white;
+  outline-color: #fbc2fc;
+}
+ul li{
+  list-style: none;
+}
+.a_list{
+  text-align: left;
+}
+.p_a{
+  text-decoration: underline;
+  text-decoration-color: #fbc2fc;
+  text-decoration-style: dotted;
+}
+.p_a:hover{
+  color: #fbc2fc;
+}
+.insta_post{
+  width: 30%;
+  display: inline-block;
+}
+.social_posts{
+  margin: 0px auto;
+  margin-left: 300px;
+}
+footer{
+  clear: both; /*won't have elements floating to the right or left of it*/
+}
+.favorites_button{
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+}
+.added_to_favorites{
+  background-color: #fbc2fc
+}
+.remove_from_favorites{
+  background-color: white;
+}
+.unsubmitted_comment{
+  float: left;
+}
+
+/*--all images gathered from unsplash unless otherwise specified-->*/
